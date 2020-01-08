@@ -11,7 +11,6 @@
   </mj-head>
   <mj-body>
     <!-- Company Header -->
-    <mj-include path="./header" /> <!-- or 'header.mjml' -->
     <mj-section padding="20px" background-color="#ffffff">
       <mj-column background-color="#dededd">
         <mj-accordion>
@@ -24,7 +23,7 @@
             </mj-accordion-text>
           </mj-accordion-element>
           <mj-accordion-element>
-            <mj-accordion-title>demeoapp</mj-accordion-title>
+            <mj-accordion-title>${vars.appname}</mj-accordion-title>
             <mj-accordion-text>
               <span style="line-height:20px">
                 Content is stacked into tabs and users can expand them at will. If responsive styles are not supported (mostly on desktop clients), tabs are then expanded and your content is readable at once.

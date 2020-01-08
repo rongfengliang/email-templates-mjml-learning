@@ -1,6 +1,7 @@
 const Email = require('email-templates');
 const mjml2html = require("mjml")
 const fs = require("fs")
+require("./polyfill")
 const email = new Email({
   message: {
     from: 'niftylettuce@gmail.com',
@@ -20,7 +21,10 @@ const email = new Email({
       // is an ejs-based template string
       // view = `${template}/html` or `${template}/subject` or `${template}/text`
       if (view.substring("html")) {
-        let htmlOutput = mjml2html(fs.readFileSync("templates/mail.mjml").toString())
+        let vars = {
+          appname:"dalongdemo-rongfengliang"
+        }
+        let htmlOutput = mjml2html(fs.readFileSync("templates/mail.mjml").toString().interpolate({vars}))
         resolve(htmlOutput.html)
       }
       if (view.substring("text")) {
