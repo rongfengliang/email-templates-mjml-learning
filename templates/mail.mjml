@@ -1,0 +1,124 @@
+<mjml>
+  <mj-head>
+    <mj-preview>Hello MJML</mj-preview>
+    <mj-title>Hello MJML</mj-title>
+    <mj-attributes>
+      <mj-accordion border="none" padding="1px" />
+      <mj-accordion-element icon-wrapped-url="http://i.imgur.com/Xvw0vjq.png" icon-unwrapped-url="http://i.imgur.com/KKHenWa.png" icon-height="24px" icon-width="24px" />
+      <mj-accordion-title font-family="Roboto, Open Sans, Helvetica, Arial, sans-serif" background-color="#fff" color="#031017" padding="15px" font-size="18px" />
+      <mj-accordion-text font-family="Open Sans, Helvetica, Arial, sans-serif" background-color="#fafafa" padding="15px" color="#505050" font-size="14px" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <!-- Company Header -->
+    <mj-include path="./header" /> <!-- or 'header.mjml' -->
+    <mj-section padding="20px" background-color="#ffffff">
+      <mj-column background-color="#dededd">
+        <mj-accordion>
+          <mj-accordion-element>
+            <mj-accordion-title>Why use an accordion?</mj-accordion-title>
+            <mj-accordion-text>
+              <span style="line-height:20px">
+                Because emails with a lot of content are most of the time a very bad experience on mobile, mj-accordion comes handy when you want to deliver a lot of information in a concise way.
+              </span>
+            </mj-accordion-text>
+          </mj-accordion-element>
+          <mj-accordion-element>
+            <mj-accordion-title>demeoapp</mj-accordion-title>
+            <mj-accordion-text>
+              <span style="line-height:20px">
+                Content is stacked into tabs and users can expand them at will. If responsive styles are not supported (mostly on desktop clients), tabs are then expanded and your content is readable at once.
+              </span>
+            </mj-accordion-text>
+          </mj-accordion-element>
+        </mj-accordion>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f0f0f0">
+      <mj-column>
+        <mj-text font-style="italic" font-size="20px" color="#626262">
+         demoappppp
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Image Header -->
+    <mj-section background-url="http://1.bp.blogspot.com/-TPrfhxbYpDY/Uh3Refzk02I/AAAAAAAALw8/5sUJ0UUGYuw/s1600/New+York+in+The+1960's+-+70's+(2).jpg" background-size="cover" background-repeat="no-repeat">
+
+      <mj-column width="600px">
+
+        <mj-text align="center" color="#fff" font-size="40px" font-family="Helvetica Neue">Slogan here</mj-text>
+
+        <mj-button background-color="#F63A4D" href="#">
+          Promotion
+        </mj-button>
+
+      </mj-column>
+
+    </mj-section>
+
+    <!-- Introduction Text -->
+    <mj-section background-color="#fafafa">
+      <mj-column width="400px">
+
+        <mj-text font-style="italic" font-size="20px" font-family="Helvetica Neue" color="#626262">My Awesome Text</mj-text>
+
+        <mj-text color="#525252">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus, sit amet suscipit nibh. Proin nec commodo purus. Sed eget nulla elit. Nulla aliquet mollis faucibus.
+        </mj-text>
+
+        <mj-button background-color="#F45E43" href="#">Learn more</mj-button>
+
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-carousel>
+          <mj-carousel-image src="https://www.mailjet.com/wp-content/uploads/2016/11/ecommerce-guide.jpg" />
+          <mj-carousel-image src="https://www.mailjet.com/wp-content/uploads/2016/09/3@1x.png" />
+          <mj-carousel-image src="https://www.mailjet.com/wp-content/uploads/2016/09/1@1x.png" />
+        </mj-carousel>
+      </mj-column>
+    </mj-section>
+    <!-- 2 columns section -->
+    <!-- Side image -->
+    <mj-section background-color="white">
+
+      <!-- Left image -->
+      <mj-column>
+        <mj-image width="200px" src="https://designspell.files.wordpress.com/2012/01/sciolino-paris-bw.jpg" />
+      </mj-column>
+
+      <!-- right paragraph -->
+      <mj-column>
+        <mj-text font-style="italic" font-size="20px" font-family="Helvetica Neue" color="#626262">
+          Find amazing places
+        </mj-text>
+
+        <mj-text color="#525252">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus.</mj-text>
+
+      </mj-column>
+    </mj-section>
+    <!-- Icons -->
+    <mj-section background-color="#fbfbfb">
+      <mj-column>
+        <mj-image width="100px" src="http://191n.mj.am/img/191n/3s/x0l.png" />
+      </mj-column>
+      <mj-column>
+        <mj-image width="100px" src="http://191n.mj.am/img/191n/3s/x01.png" />
+      </mj-column>
+      <mj-column>
+        <mj-image width="100px" src="http://191n.mj.am/img/191n/3s/x0s.png" />
+      </mj-column>
+    </mj-section>
+    <!-- Social icons -->
+    <mj-section background-color="#e7e7e7">
+      <mj-column>
+        <mj-social>
+          <mj-social-element name="facebook" />
+        </mj-social>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
