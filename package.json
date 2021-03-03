@@ -6,7 +6,7 @@
   "dependencies": {
     "email-templates": "^6.1.1",
     "mjml": "^4.5.1",
-    "pug": "^2.0.4"
+    "pug": "^3.0.1"
   },
   "scripts": {
     "app":"node app.js"
